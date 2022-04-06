@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 int main()
-{ double liczba10; // liczba z u³amkiem dziesiêtnym
+{ double liczba10; // liczba z uï¿½amkiem dziesiï¿½tnym
  double ulamek;
     int n;
     int t[10]={0};
@@ -18,7 +18,7 @@ while(n>0){ //petla do czesci calkowitej
     i--;}
 for(int i=0; i<100; i++){ //petla dla czesci ulamkowej
     ulamek=2*ulamek;
-if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;}
+if(ulamek>=1) {u[i]=1; ulamek=ulamek-1;} // suchojad tu byl !!!!!!!!!!!!!!!!!!!!!!!!
     else u[i]=0;
 }
 cout<<"binarnie to:";
